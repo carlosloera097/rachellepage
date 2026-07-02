@@ -998,3 +998,15 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+
+/* Ajuste de seguridad para que la galería siempre se vea en móvil */
+.gallery.section-animate {
+  opacity: 1;
+  transform: none;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}

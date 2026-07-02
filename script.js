@@ -18,20 +18,24 @@ links.forEach((link) => {
 
 const animatedSections = document.querySelectorAll('.section-animate');
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  },
-  {
-    threshold: 0.15,
-  }
-);
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    {
+      threshold: 0.15,
+    }
+  );
 
-animatedSections.forEach((section) => observer.observe(section));
+  animatedSections.forEach((section) => observer.observe(section));
+} else {
+  animatedSections.forEach((section) => section.classList.add('visible'));
+}
 
 const filterButtons = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
