@@ -1123,3 +1123,60 @@ h3 {
     flex-basis: 82vw;
   }
 }
+
+
+/* Corrección carrusel escritorio: evita que la galería vuelva a mostrarse como grid completo */
+.gallery-carousel {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.gallery-carousel .gallery-grid {
+  min-width: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  grid-template-columns: none !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery-carousel .gallery-item,
+.gallery-carousel .gallery-item:nth-child(1),
+.gallery-carousel .gallery-item:nth-child(5) {
+  flex: 0 0 min(82vw, 330px) !important;
+  width: auto !important;
+  max-width: none !important;
+  grid-column: auto !important;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 760px) {
+  .gallery-carousel .gallery-item,
+  .gallery-carousel .gallery-item:nth-child(1),
+  .gallery-carousel .gallery-item:nth-child(5) {
+    flex-basis: calc((100% - 18px) / 2) !important;
+    max-width: calc((100% - 18px) / 2) !important;
+  }
+}
+
+@media (min-width: 1040px) {
+  .gallery-carousel .gallery-item,
+  .gallery-carousel .gallery-item:nth-child(1),
+  .gallery-carousel .gallery-item:nth-child(5) {
+    flex-basis: calc((100% - 36px) / 3) !important;
+    max-width: calc((100% - 36px) / 3) !important;
+  }
+}
+
+@media (min-width: 1360px) {
+  .gallery-carousel .gallery-item,
+  .gallery-carousel .gallery-item:nth-child(1),
+  .gallery-carousel .gallery-item:nth-child(5) {
+    flex-basis: calc((100% - 54px) / 4) !important;
+    max-width: calc((100% - 54px) / 4) !important;
+  }
+}
