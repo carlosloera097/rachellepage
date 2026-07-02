@@ -1,0 +1,11 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="650" fill="#F8F5EF"/>
+  <rect x="38" y="38" width="824" height="574" rx="42" fill="#FFFFFF" stroke="#0F0F0F" stroke-opacity="0.15" stroke-width="2"/>
+  <circle cx="735" cy="145" r="78" fill="#0F0F0F" fill-opacity="0.08"/>
+  <circle cx="150" cy="520" r="100" fill="#0F0F0F" fill-opacity="0.06"/>
+  <path d="M150 340C245 210 342 412 438 292C527 181 604 390 748 252" stroke="#0F0F0F" stroke-width="4" stroke-linecap="round" stroke-opacity="0.25"/>
+  <path d="M237 438C331 354 475 529 650 395" stroke="#0F0F0F" stroke-width="3" stroke-linecap="round" stroke-opacity="0.18"/>
+  <text x="450" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#0F0F0F">Uñas</text>
+  <text x="450" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="4" fill="#6F6F6F">GALERÍA 02</text>
+  <line x1="330" y1="382" x2="570" y2="382" stroke="#0F0F0F" stroke-opacity="0.2" stroke-width="2"/>
+</svg>
