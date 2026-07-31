@@ -332,6 +332,81 @@ h3 {
   margin: 0;
 }
 
+
+/* Sección de equipo profesional */
+.team {
+  padding-top: 34px;
+}
+
+.team-showcase {
+  display: grid;
+  gap: 22px;
+}
+
+.team-main-card,
+.team-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-large);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.team-main-card {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.team-main-card img {
+  height: clamp(300px, 42vw, 460px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.team-main-card > div {
+  padding: clamp(24px, 4vw, 42px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-label {
+  color: var(--gold) !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem !important;
+  margin-bottom: 10px !important;
+}
+
+.team-main-card p,
+.team-card p {
+  color: var(--gray);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.team-card img {
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  background: var(--cream);
+}
+
+.team-card-content {
+  padding: 22px;
+}
+
+.team-card h3,
+.team-main-card h3 {
+  margin-bottom: 10px;
+}
+
+
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -663,8 +738,16 @@ h3 {
     grid-template-columns: 1fr 1fr;
   }
 
+  .comparison-frame.three-stages {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .before-after-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .before-after-card.featured-case {
+    grid-column: 1 / -1;
   }
 }
 
@@ -1179,4 +1262,34 @@ h3 {
     flex-basis: calc((100% - 54px) / 4) !important;
     max-width: calc((100% - 54px) / 4) !important;
   }
+}
+
+
+@media (min-width: 760px) {
+  .team-main-card {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-card img {
+    height: 260px;
+  }
+}
+
+@media (max-width: 520px) {
+  .team {
+    padding-top: 24px;
+  }
+
+  .team-card img {
+    height: 255px;
+  }
+}
+
+
+.three-stages .comparison-photo span {
+  background: rgba(10, 10, 10, 0.78);
 }
