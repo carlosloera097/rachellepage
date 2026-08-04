@@ -1,567 +1,752 @@
 <!DOCTYPE html>
-<html lang="es">
+
+<html lang="es-MX">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rachelle | Salón de Belleza</title>
-  <meta name="description" content="Rachelle, salón de belleza especializado en cabello, uñas, pestañas, maquillaje, peinado y tratamientos capilares." />
-  <link rel="stylesheet" href="style.css?v=20260801-3" />
-  <link rel="stylesheet" href="carousel-fix.css?v=20260801-3" />
-</head>
-<body>
-  
-  <header class="header" id="inicio">
-    <nav class="navbar" aria-label="Menú principal">
-      
-      <a href="#inicio" class="brand" aria-label="Ir al inicio">
-        <img src="images/logo-rachelle.png" alt="Logo Rachelle" class="brand-logo" />
-      </a>
-
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#atencion">Atención</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="#correccion-color">Antes y después</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#ubicacion">Ubicación</a></li>
-        <li><a href="#faq">Dudas</a></li>
-        <li><a href="#contacto" class="nav-cta">Agendar</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    
-    <section class="hero section-animate">
-      <div class="hero-content">
-        <p class="eyebrow">Salón de belleza</p>
-        <h1>Belleza, estilo y cuidado en cada detalle</h1>
-        <p class="hero-description">
-          Cabello, uñas, pestañas, maquillaje y peinado profesional en un espacio pensado para que te sientas segura, cuidada y hermosa.
-        </p>
-
-        <div class="hero-buttons">
-          
-          <a href="https://wa.me/522351035520?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita." class="btn btn-gold" target="_blank" rel="noopener">Agendar por WhatsApp</a>
-          <a href="#servicios" class="btn btn-outline">Ver servicios</a>
-        </div>
-
-        <div class="hero-tags" aria-label="Servicios destacados">
-          <span>Cabello</span>
-          <span>Uñas</span>
-          <span>Pestañas</span>
-          <span>Maquillaje</span>
-        </div>
-      </div>
-
-      <div class="hero-image-card">
-        
-        <img src="images/hero-fachada-rachelle.png" alt="Fachada del salón de belleza" />
-      </div>
-    </section>
-
-    <section class="about section-animate" id="sobre-nosotros">
-      <div class="section-text">
-        <p class="eyebrow">Sobre nosotros</p>
-        <h2>Un espacio para verte bien y sentirte mejor</h2>
-        <p>
-          Rachelle es un salón de belleza enfocado en brindar servicios profesionales con un trato cálido, detallado y personalizado. Cada servicio se trabaja con cuidado para lograr un resultado limpio, femenino y elegante.
-        </p>
-
-        <div class="feature-list">
-          <article>
-            <span>01</span>
-            <p>Atención personalizada para cada estilo y necesidad.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <p>Servicios de cabello, uñas, pestañas y eventos en un solo lugar.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <p>Ambiente elegante, cómodo y pensado para clientas.</p>
-          </article>
-        </div>
-      </div>
-
-      <div class="about-card">
-        
-        <img src="images/about-local-rachelle.png" alt="Interior del salón Rachelle" />
-      </div>
-    </section>
-
-    <section class="team section-animate" id="equipo">
-      <div class="section-heading centered">
-        <p class="eyebrow">Nuestro equipo</p>
-        <h2>Profesionales que cuidan cada detalle</h2>
-        <p>En Rachelle cada servicio se realiza con atención, técnica y trato personalizado. Nuestro equipo trabaja para que cada clienta se sienta cómoda, segura y feliz con su resultado.</p>
-      </div>
-
-      <div class="team-showcase">
-        <article class="team-main-card">
-          <img src="images/equipo-rachelle-trabajadoras.jpg" alt="Equipo profesional del salón Rachelle" loading="lazy" />
-          <div>
-            <p class="team-label">Equipo Rachelle</p>
-            <h3>Especialistas en belleza integral</h3>
-            <p>Cabello, uñas, pestañas y maquillaje se trabajan con una visión completa para resaltar tu estilo con acabados limpios y elegantes.</p>
-          </div>
-        </article>
-
-        <div class="team-grid">
-          <article class="team-card">
-            <img src="images/equipo-rachelle-pestanas.jpg" alt="Especialista aplicando pestañas en Rachelle" loading="lazy" />
-            <div class="team-card-content">
-              <p class="team-label">Pestañas</p>
-              <h3>Aplicación cuidadosa</h3>
-              <p>Técnica precisa para lograr una mirada definida, femenina y natural.</p>
-            </div>
-          </article>
-
-          <article class="team-card">
-            <img src="images/equipo-rachelle-unas.jpg" alt="Especialista en uñas del salón Rachelle" loading="lazy" />
-            <div class="team-card-content">
-              <p class="team-label">Uñas</p>
-              <h3>Diseño y detalle</h3>
-              <p>Manicura, diseños y acabados pensados para complementar tu estilo.</p>
-            </div>
-          </article>
-
-          <article class="team-card">
-            <img src="images/servicio-pestanas-pelo-a-pelo-rachelle.jpg" alt="Servicio de pestañas pelo a pelo en Rachelle" loading="lazy" />
-            <div class="team-card-content">
-              <p class="team-label">Atención</p>
-              <h3>Servicio personalizado</h3>
-              <p>Acompañamiento desde la orientación inicial hasta el acabado final.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="services section-animate" id="servicios">
-      <div class="section-heading centered">
-        <p class="eyebrow">Servicios</p>
-        <h2>Servicios pensados para resaltar tu estilo</h2>
-        <p>Elige una categoría y escríbenos por WhatsApp para recibir orientación según el resultado que buscas.</p>
-      </div>
-
-      <div class="services-grid">
-        <article class="service-card">
-          
-          <img src="images/servicio-cortes-rachelle.jpg" alt="Servicio de cortes y cabello en Rachelle" />
-          <div class="service-content">
-            <p class="service-category">Cabello</p>
-            <h3>Cortes, tintes y mechas</h3>
-            <p>Cortes modernos, coloración, luces, mechas y cambios de look con acabado profesional.</p>
-            <a class="service-link" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20servicios%20de%20cabello." target="_blank" rel="noopener">Preguntar por cabello</a>
-          </div>
-        </article>
-
-        <article class="service-card">
-          
-          <img src="images/servicio-manicura-rachelle.jpg" alt="Servicio de manicura" />
-          <div class="service-content">
-            <p class="service-category">Uñas</p>
-            <h3>Uñas y pedicure</h3>
-            <p>Diseños elegantes, cuidado de manos y pedicure para completar tu imagen.</p>
-            <a class="service-link" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20u%C3%B1as%20y%20pedicure." target="_blank" rel="noopener">Preguntar por uñas</a>
-          </div>
-        </article>
-
-        <article class="service-card">
-          
-          <img src="images/servicio-pestanas-pelo-a-pelo-rachelle.jpg" alt="Servicio profesional de pestañas pelo a pelo en Rachelle" />
-          <div class="service-content">
-            <p class="service-category">Pestañas</p>
-            <h3>Pestañas pelo a pelo</h3>
-            <p>Extensiones con efecto natural, definido y femenino para realzar tu mirada.</p>
-            <a class="service-link" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20pesta%C3%B1as%20pelo%20a%20pelo." target="_blank" rel="noopener">Preguntar por pestañas</a>
-          </div>
-        </article>
-
-        <article class="service-card service-card-wide">
-          
-          <img src="images/servicio-maquillaje-rachelle.png" alt="Servicio de maquillaje y peinado en Rachelle" />
-          <div class="service-content">
-            <p class="service-category">Eventos</p>
-            <h3>Maquillaje y peinado</h3>
-            <p>Maquillaje social, peinados para eventos y preparación especial para ocasiones importantes.</p>
-            <a class="service-link" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20maquillaje%20y%20peinado%20para%20evento." target="_blank" rel="noopener">Preguntar por evento</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="personalized section-animate" id="atencion">
-      <div class="personalized-card">
-        <p class="eyebrow">Atención personalizada</p>
-        <h2>Cuéntanos qué cambio de look quieres lograr</h2>
-        <p>
-          Cada servicio puede variar según el largo del cabello, técnica, diseño, condición actual o resultado deseado. Escríbenos por WhatsApp, envíanos una foto de referencia y te orientamos antes de tu cita.
-        </p>
-        <a class="btn btn-gold" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20orientaci%C3%B3n%20personalizada%20para%20un%20servicio.%20Puedo%20enviar%20una%20foto%20de%20referencia." target="_blank" rel="noopener">Recibir orientación</a>
-        <a class="btn btn-outline" href="productos.html">Ver productos profesionales</a>
-      </div>
-    </section>
-
-    <section class="before-after section-animate visible" id="correccion-color">
-      <div class="section-heading centered">
-        <p class="eyebrow">Antes y después</p>
-        <h2>Corrección de color</h2>
-        <p>Resultados reales de servicios de corrección de color para unificar el tono, iluminar el cabello y lograr un acabado más uniforme y brillante.</p>
-      </div>
-
-      <div class="before-after-grid">
-        <article class="before-after-card featured-case">
-          <div class="comparison-frame three-stages">
-            <div class="comparison-photo">
-              <span>Llegó así</span>
-              <img src="images/correccion-color-nuevo-llegada-mal-trabajo.jpg" alt="Clienta que llegó con un trabajo de color previo mal realizado" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Prueba de mechón</span>
-              <img src="images/correccion-color-nuevo-prueba-mechon.jpg" alt="Prueba de mechón durante una corrección de color" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Resultado</span>
-              <img src="images/correccion-color-nuevo-resultado-final.jpg" alt="Resultado final de corrección de color con reflejos más uniformes" loading="lazy" />
-            </div>
-          </div>
-          <h3>Corrección de color</h3>
-          <p>La clienta llegó con un trabajo previo mal realizado y un tono desigual. Se realizó una prueba de mechón para valorar el proceso de forma segura y después se trabajó la corrección para lograr un resultado más uniforme, luminoso y elegante.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-        <article class="before-after-card">
-          <div class="comparison-frame">
-            <div class="comparison-photo">
-              <span>Antes</span>
-              <img src="images/correccion-color-antes.jpg" alt="Antes de corrección de color, tono desigual" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Después</span>
-              <img src="images/correccion-color-despues.jpg" alt="Después de corrección de color, tono uniforme" loading="lazy" />
-            </div>
-          </div>
-          <h3>Corrección de color</h3>
-          <p>Proceso ideal para mejorar tonos desiguales, matizar reflejos no deseados y lograr un resultado más uniforme y brillante.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-        <article class="before-after-card">
-          <div class="comparison-frame">
-            <div class="comparison-photo">
-              <span>Antes</span>
-              <img src="images/correccion-color-02-antes.png" alt="Antes de servicio de color con cabello reseco y tono cobrizo" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Después</span>
-              <img src="images/correccion-color-02-despues.png" alt="Después de corrección de color con ondas y tonos rubios" loading="lazy" />
-            </div>
-          </div>
-          <h3>Caso 2 · Iluminación y matiz</h3>
-          <p>Transformación para suavizar tonos intensos, aportar luz al cabello y conseguir una apariencia más fresca y definida.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-        <article class="before-after-card">
-          <div class="comparison-frame">
-            <div class="comparison-photo">
-              <span>Antes</span>
-              <img src="images/correccion-color-03-antes.png" alt="Antes de corrección de color con cabello oscuro" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Después</span>
-              <img src="images/correccion-color-03-despues.png" alt="Después de corrección de color con acabado liso y reflejos miel" loading="lazy" />
-            </div>
-          </div>
-          <h3>Caso 3 · Cambio de tono</h3>
-          <p>Trabajo de iluminación para dar dimensión al cabello oscuro y crear un resultado elegante con acabado más pulido.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-        <article class="before-after-card">
-          <div class="comparison-frame">
-            <div class="comparison-photo">
-              <span>Antes</span>
-              <img src="images/correccion-color-04-antes.png" alt="Antes de corrección de color con puntas claras" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Después</span>
-              <img src="images/correccion-color-04-despues.png" alt="Después de corrección de color con tono rubio uniforme" loading="lazy" />
-            </div>
-          </div>
-          <h3>Caso 4 · Uniformidad y brillo</h3>
-          <p>Servicio orientado a equilibrar el tono, mejorar la textura visual y conseguir una caída más limpia y luminosa.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-        <article class="before-after-card">
-          <div class="comparison-frame">
-            <div class="comparison-photo">
-              <span>Antes</span>
-              <img src="images/correccion-color-05-antes.png" alt="Antes de corrección de color con crecimiento oscuro y decoloración" loading="lazy" />
-            </div>
-            <div class="comparison-photo">
-              <span>Después</span>
-              <img src="images/correccion-color-05-despues.png" alt="Después de corrección de color con reflejos ceniza y acabado liso" loading="lazy" />
-            </div>
-          </div>
-          <h3>Caso 5 · Matización de rubios</h3>
-          <p>Ideal para neutralizar contrastes marcados, armonizar los reflejos y lograr un efecto más natural y sofisticado.</p>
-          <a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." target="_blank" rel="noopener">Consultar por WhatsApp</a>
-        </article>
-
-      </div>
-    </section>
-
-    <section class="gallery section-animate visible" id="galeria">
-      <div class="section-heading centered">
-        <p class="eyebrow">Galería</p>
-        <h2>Resultados que inspiran confianza</h2>
-        
-      </div>
-
-      <div class="gallery-filters" aria-label="Filtros de galería">
-        <button class="filter-btn active" data-filter="todo">Todo</button>
-        <button class="filter-btn" data-filter="cabello">Cabello</button>
-        <button class="filter-btn" data-filter="unas">Uñas</button>
-        <button class="filter-btn" data-filter="pestanas">Pestañas</button>
-      </div>
-      <div class="gallery-carousel" aria-label="Carrusel de galería">
-        <button class="gallery-carousel-btn" type="button" data-gallery-prev aria-label="Ver fotos anteriores">‹</button>
-        <div class="gallery-grid" id="galleryCarousel" tabindex="0">
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de corrección de color">
-          <img src="images/galeria-correccion-color-despues.jpeg" alt="Resultado de corrección de color" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de corrección de color con ondas suaves">
-          <img src="images/galeria-correccion-color-resultado-final.jpg" alt="Resultado final de corrección de color con ondas suaves" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto final de corrección de color en espejo">
-          <img src="images/galeria-correccion-color-selfie-final.jpg" alt="Resultado final de corrección de color tomado frente al espejo" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de mechas cálidas">
-          <img src="images/galeria-cabello-01.png" alt="Cabello largo con ondas y mechas cálidas" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de balayage rubio beige">
-          <img src="images/galeria-cabello-02.png" alt="Balayage rubio beige con ondas suaves" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de ondas suaves en cabello oscuro">
-          <img src="images/galeria-cabello-03.png" alt="Cabello oscuro con ondas suaves" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de alaciado brillante">
-          <img src="images/galeria-cabello-04.png" alt="Cabello negro lacio y brillante" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de balayage rubio claro">
-          <img src="images/galeria-cabello-05.png" alt="Balayage rubio claro con ondas" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de balayage cenizo">
-          <img src="images/galeria-cabello-06.png" alt="Cabello con balayage cenizo y ondas" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de bob ondulado con mechas">
-          <img src="images/galeria-cabello-07.png" alt="Bob ondulado con mechas caramelo" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto de resultado de corrección de color rubio beige">
-          <img src="images/galeria-correccion-color-nuevo-resultado.jpg" alt="Resultado final de corrección de color en tonos beige con ondas" />
-        </button>
-        <button class="gallery-item" data-category="cabello" aria-label="Abrir foto final de corrección de color en espejo">
-          <img src="images/galeria-correccion-color-nuevo-espejo.jpg" alt="Resultado final de corrección de color visto en espejo" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-01.jpg" alt="Diseño de uñas rosa y chocolate con flores" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-02.jpg" alt="Diseño de uñas francesas rosa con estampado animal y cerezas" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-03.jpg" alt="Uñas color vino con acento carey" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-04.jpg" alt="Uñas azules con diseño floral" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-05.jpg" alt="Uñas nude con detalles dorados" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-06.jpg" alt="Uñas brillantes con punta dorada" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-07.jpg" alt="Uñas azules intensas con diseño floral bajo lámpara" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-08.jpg" alt="Uñas efecto cromo y plateado con detalles brillantes" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-09.jpg" alt="Uñas color vino con acento carey" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-10.jpg" alt="Diseño de uñas rosa y chocolate con flores sobre libro" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-11.jpg" alt="Uñas rosa brillante con puntas animal print y cerezas" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-12.jpg" alt="Uñas brillantes con punta dorada en fondo oscuro" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-13.jpg" alt="Uñas nude rosadas con detalles dorados elegantes" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-14.jpg" alt="Uñas largas con diseño Kuromi y detalles rosa neón" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-15.jpg" alt="Uñas cuadradas rosa con flores doradas encapsuladas" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-16.jpg" alt="Uñas francesas blancas con flores azules pintadas a mano" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-17.jpg" alt="Uñas multicolor con estrellas en relieve y acabado tornasol" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-18.jpg" alt="Detalle lateral de uñas rosa con flores doradas" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-19.jpg" alt="Uñas rosa degradado junto a esmaltes gel polish" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-20.jpg" alt="Diseño almendrado negro y rosa con corazones y brillo" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-21.jpg" alt="Uñas amarillas con lunares y diseño de monito en relieve" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-22.jpg" alt="Detalle de uñas amarillas con lunares y monito en 3D" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-23.jpg" alt="Uñas cortas efecto aperlado lila con francés blanco" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-24.jpg" alt="Uñas nude con vaquita, estrellas y detalles cafés" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-25.jpg" alt="Uñas cortas con diseños de colores, estrellas y lunares" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-26.jpg" alt="Uñas elegantes con estrellas, perlas y detalles dorados" />
-        </button>
-        <button class="gallery-item" data-category="unas" aria-label="Abrir foto de uñas">
-          <img src="images/galeria-unas-27.jpg" alt="Uñas efecto cromado dorado con pedrería y flor" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de pestañas">
-          <img src="images/galeria-pestanas-01.jpg" alt="Resultado de pestañas 1" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de pestañas">
-          <img src="images/galeria-pestanas-02.jpg" alt="Resultado de pestañas 2" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de pestañas">
-          <img src="images/galeria-pestanas-03.jpg" alt="Resultado de pestañas 3" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de pestañas">
-          <img src="images/galeria-pestanas-04.jpg" alt="Resultado de pestañas 4" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de pestañas">
-          <img src="images/galeria-pestanas-05.jpg" alt="Resultado de pestañas 5" />
-        </button>
-        <button class="gallery-item" data-category="pestanas" aria-label="Abrir foto de aplicación de pestañas">
-          <img src="images/galeria-pestanas-06.png" alt="Aplicación de extensiones de pestañas" />
-        </button>
-        </div>
-        <button class="gallery-carousel-btn" type="button" data-gallery-next aria-label="Ver fotos siguientes">›</button>
-      </div>
-      <p class="gallery-hint">Desliza para ver más trabajos.</p>
-    </section>
-
-    <section class="location section-animate" id="ubicacion">
-      <div class="section-text">
-        <p class="eyebrow">Ubicación</p>
-        <h2>Visítanos en Rachelle</h2>
-        <p>
-          Encuentra el salón en Google Maps y agenda tu cita antes de visitarnos para confirmar disponibilidad.
-        </p>
-        <div class="info-list">
-          <p><strong>Ubicación:</strong> Rachelle Salón de Belleza</p>
-          <p><strong>Horario:</strong> Lunes a domingo · 9:00 a.m. a 8:00 p.m.</p>
-        </div>
-        <div class="location-buttons">
-          <a href="https://wa.me/522351035520?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20antes%20de%20visitar%20el%20sal%C3%B3n." class="btn btn-dark" target="_blank" rel="noopener">Agendar antes de ir</a>
-          <a href="https://maps.app.goo.gl/JCtQqW6S3QTgFV7H7" class="btn btn-outline" target="_blank" rel="noopener">Cómo llegar</a>
-        </div>
-      </div>
-
-      <div class="map-box">
-        <iframe
-          title="Ubicación de Rachelle Salón de Belleza en Google Maps"
-          src="https://www.google.com/maps?q=19.9269236,-96.8555838&z=18&output=embed"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </section>
-
-    <section class="faq section-animate" id="faq">
-      <div class="section-heading centered">
-        <p class="eyebrow">Dudas frecuentes</p>
-        <h2>Antes de agendar</h2>
-        <p>Resuelve dudas básicas y motiva a la clienta a escribir por WhatsApp.</p>
-      </div>
-
-      <div class="faq-list">
-        <details>
-          <summary>¿Necesito agendar cita?</summary>
-          <p>Sí, recomendamos escribir por WhatsApp para revisar disponibilidad y separar tu espacio.</p>
-        </details>
-        <details>
-          <summary>¿Puedo enviar una foto de referencia?</summary>
-          <p>Sí. Puedes enviar una foto de inspiración para recibir orientación antes de tu servicio.</p>
-        </details>
-        <details>
-          <summary>¿Atienden cabello, uñas, pestañas y eventos?</summary>
-          <p>Sí. Puedes preguntar por corte, tintes, mechas, tratamientos, uñas, pedicure, pestañas, maquillaje y peinado.</p>
-        </details>
-        <details>
-          <summary>¿Cómo sé qué servicio me conviene?</summary>
-          <p>Escríbenos por WhatsApp y te ayudamos a elegir según tu idea, tu cabello, tu estilo o tu evento.</p>
-        </details>
-      </div>
-    </section>
-
-    <section class="contact section-animate" id="contacto">
-      <div class="contact-card">
-        <p class="eyebrow">Contacto</p>
-        <h2>Agenda tu cita en Rachelle</h2>
-        <p>Escríbenos por WhatsApp para consultar disponibilidad, enviar una foto de referencia o resolver dudas antes de tu visita.</p>
-
-        <div class="contact-actions">
-          
-          <a class="btn btn-gold" href="https://wa.me/522351035520?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita." target="_blank" rel="noopener">Enviar WhatsApp</a>
-          
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <a class="whatsapp-float" href="https://wa.me/522351035520?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20los%20servicios." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-    <span>WhatsApp</span>
-  </a>
-
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar imagen">×</button>
-    <img src="" alt="" id="lightboxImage" />
-  </div>
-
-  <footer class="footer">
-    <p>© 2026 Rachelle. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js?v=20260801-3"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Estética Rachelle | Cabello, Uñas, Pestañas y Cejas en Misantla</title>
+<meta content="Estética Rachelle en Misantla, Veracruz. Servicios de cabello, peinados, tintes, manicure, pedicure, uñas, pestañas y diseño de cejas. Agenda tu cita." name="description"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="index, follow, max-image-preview:large" name="googlebot"/>
+<meta content="#070707" name="theme-color"/>
+<meta content="telephone=yes" name="format-detection"/>
+<meta content="MX-VER" name="geo.region"/>
+<meta content="Misantla" name="geo.placename"/>
+<link href="https://esteticarachelle.com/" rel="canonical"/>
+<meta content="Estética Rachelle en Misantla, Veracruz" property="og:title"/>
+<meta content="Servicios de cabello, uñas, pestañas y cejas en Misantla. Conoce nuestros servicios y agenda tu cita." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://esteticarachelle.com/" property="og:url"/>
+<meta content="https://esteticarachelle.com/images/estetica-rachelle-misantla-social.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Estética Rachelle, salón de belleza en Misantla, Veracruz" property="og:image:alt"/>
+<meta content="es_MX" property="og:locale"/>
+<meta content="Estética Rachelle" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Estética Rachelle en Misantla, Veracruz" name="twitter:title"/>
+<meta content="Servicios de cabello, uñas, pestañas y cejas en Misantla. Conoce nuestros servicios y agenda tu cita." name="twitter:description"/>
+<meta content="https://esteticarachelle.com/images/estetica-rachelle-misantla-social.jpg" name="twitter:image"/>
+<meta content="Estética Rachelle en Misantla, Veracruz" name="twitter:image:alt"/>
+<link href="favicon.ico" rel="icon" sizes="any"/>
+<link href="images/favicon-rachelle-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/favicon-rachelle-180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="manifest.webmanifest" rel="manifest"/>
+<link as="image" fetchpriority="high" href="images/hero-fachada-rachelle.webp" rel="preload"/>
+<link href="style.css?v=20260803-seo" rel="stylesheet"/>
+<link href="carousel-fix.css?v=20260803-seo" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BeautySalon",
+      "@id": "https://esteticarachelle.com/#beautysalon",
+      "name": "Estética Rachelle",
+      "alternateName": "Rachelle Salón de Belleza",
+      "description": "Salón de belleza en Misantla, Veracruz, con servicios de cabello, peinados, tintes, tratamientos capilares, manicure, pedicure, uñas, pestañas y cejas.",
+      "url": "https://esteticarachelle.com/",
+      "telephone": "+522351035520",
+      "image": "https://esteticarachelle.com/images/hero-fachada-rachelle.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Hermanos Bojalil Gil 113, Zona Centro",
+        "addressLocality": "Misantla",
+        "addressRegion": "Veracruz",
+        "postalCode": "93820",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.9269236,
+        "longitude": -96.8555838
+      },
+      "hasMap": "https://maps.app.goo.gl/JCtQqW6S3QTgFV7H7",
+      "areaServed": {
+        "@type": "City",
+        "name": "Misantla"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cortes de cabello para mujer"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Peinados"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Lavado, secado y planchado de cabello"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Tintes y coloración"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Tratamientos para el cabello"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Manicure"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pedicure"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Aplicación y diseño de uñas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Uñas acrílicas y semipermanentes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pestañas y extensiones de pestañas"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Diseño y arreglo de cejas"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://esteticarachelle.com/#website",
+      "url": "https://esteticarachelle.com/",
+      "name": "Estética Rachelle",
+      "description": "Sitio oficial de Estética Rachelle en Misantla, Veracruz.",
+      "inLanguage": "es-MX",
+      "publisher": {
+        "@id": "https://esteticarachelle.com/#beautysalon"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://esteticarachelle.com/#webpage",
+      "url": "https://esteticarachelle.com/",
+      "name": "Estética Rachelle | Cabello, Uñas, Pestañas y Cejas en Misantla",
+      "description": "Estética Rachelle en Misantla, Veracruz. Servicios de cabello, peinados, tintes, manicure, pedicure, uñas, pestañas y diseño de cejas. Agenda tu cita.",
+      "inLanguage": "es-MX",
+      "isPartOf": {
+        "@id": "https://esteticarachelle.com/#website"
+      },
+      "about": {
+        "@id": "https://esteticarachelle.com/#beautysalon"
+      }
+    }
+  ]
+}</script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué servicios ofrece Estética Rachelle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Estética Rachelle ofrece servicios de cabello, peinados, tintes, manicure, pedicure, uñas, pestañas y diseño de cejas en Misantla, Veracruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde se encuentra Estética Rachelle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Estética Rachelle se encuentra en Calle Hermanos Bojalil Gil número 113, Zona Centro, Misantla, Veracruz, código postal 93820. Consulta la sección de ubicación para ver el mapa y las indicaciones para llegar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo agendar una cita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puedes solicitar una cita por WhatsApp o teléfono desde los botones de contacto de la página."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Ofrecen servicios de manicure y pedicure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Puedes consultar la disponibilidad de los servicios de manicure y pedicure directamente con Estética Rachelle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Realizan aplicación y diseño de uñas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Estética Rachelle ofrece servicios de aplicación y diseño de uñas. Consulta los estilos y opciones disponibles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Ofrecen servicios de pestañas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Puedes solicitar información sobre los servicios de pestañas y extensiones, y agendar una cita."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Realizan diseño de cejas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Estética Rachelle ofrece servicios de diseño y arreglo de cejas en Misantla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es necesario reservar con anticipación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Se recomienda consultar disponibilidad y agendar con anticipación para asegurar el horario deseado."
+      }
+    }
+  ]
+}</script></head>
+<body><a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+<header class="header" id="inicio">
+<nav aria-label="Menú principal" class="navbar">
+<a aria-label="Ir al inicio de Estética Rachelle" class="brand" href="index.html#inicio">
+<img alt="Logotipo de Estética Rachelle" class="brand-logo" decoding="async" height="201" src="images/logo-rachelle.webp" width="446"/>
+</a>
+<button aria-controls="navLinks" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle" id="menuToggle" type="button">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-links" id="navLinks"><li><a class="active-page" href="index.html#inicio">Inicio</a></li><li><a href="index.html#servicios">Servicios</a></li><li><a href="index.html#galeria">Galería</a></li><li><a href="#ubicacion">Ubicación</a></li><li><a href="productos.html">Productos</a></li><li><a href="index.html#faq">Preguntas frecuentes</a></li><li><a class="nav-cta" href="contacto/">Agendar cita</a></li></ul>
+</nav>
+</header>
+<main id="contenido-principal">
+<section aria-labelledby="titulo-principal" class="hero section-animate">
+<div class="hero-content">
+<p class="eyebrow">Salón de belleza en Misantla, Veracruz</p>
+<h1 id="titulo-principal">Estética Rachelle: salón de belleza en Misantla, Veracruz</h1>
+<p class="hero-description">Bienvenida a Estética Rachelle, salón de belleza en Misantla, Veracruz. Ofrecemos servicios de cabello, peinados, tintes, manicure, pedicure, uñas, pestañas y diseño de cejas. Consulta nuestros servicios y agenda tu cita.</p>
+<div class="hero-buttons">
+<a aria-label="Agendar una cita por WhatsApp con Estética Rachelle" class="btn btn-gold" href="https://wa.me/522351035520?text=Hola%2C%20encontr%C3%A9%20Est%C3%A9tica%20Rachelle%20en%20Google%20y%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita." rel="noopener noreferrer" target="_blank">Agendar cita por WhatsApp</a>
+<a class="btn btn-outline" href="#servicios">Ver servicios de belleza</a>
+</div>
+<div aria-label="Servicios destacados" class="hero-tags"><span>Cabello</span><span>Uñas</span><span>Pestañas</span><span>Cejas</span><span>Peinados</span></div>
+</div>
+<div class="hero-image-card">
+<img alt="Fachada de Estética Rachelle, salón de belleza en Misantla, Veracruz" class="hero-main-image" decoding="async" fetchpriority="high" height="896" loading="eager" src="images/hero-fachada-rachelle.webp" width="1195"/>
+</div>
+</section>
+<section class="about section-animate" id="sobre-nosotros">
+<div class="section-text">
+<p class="eyebrow">Estética Rachelle en Misantla</p>
+<h2>Cuidado de cabello, uñas, pestañas y cejas en un solo lugar</h2>
+<p>Nuestro objetivo es ayudarte a encontrar un estilo que te haga sentir cómoda y segura. En Estética Rachelle puedes consultar opciones de cortes, peinados, coloración, tratamientos capilares, manicure, pedicure, aplicación de uñas, pestañas y diseño de cejas.</p>
+<div class="feature-list">
+<article>
+<span>01</span>
+<p>Consulta el servicio que mejor se adapte a tu estilo y a lo que deseas realizar.</p>
+</article>
+<article>
+<span>02</span>
+<p>Encuentra servicios de cabello, uñas, pestañas y cejas en Misantla.</p>
+</article>
+<article>
+<span>03</span>
+<p>Agenda con anticipación para confirmar disponibilidad en el horario que necesitas.</p>
+</article>
+</div>
+</div>
+<div class="about-card">
+<img alt="Interior de Estética Rachelle en Misantla, Veracruz" decoding="async" height="1195" loading="lazy" src="images/about-local-rachelle.webp" width="896"/>
+</div>
+</section>
+<section class="team section-animate" id="equipo">
+<div class="section-heading centered">
+<p class="eyebrow">Nuestro equipo</p>
+<h2>Atención dedicada en cada servicio de belleza</h2>
+<p>El equipo de Estética Rachelle realiza servicios de cabello, uñas y pestañas con atención al detalle y orientación según el resultado que buscas.</p>
+</div>
+<div class="team-showcase">
+<article class="team-main-card">
+<img alt="Equipo profesional del salón Rachelle" decoding="async" height="1066" loading="lazy" src="images/equipo-rachelle-trabajadoras.webp" width="1600"/>
+<div>
+<p class="team-label">Equipo Rachelle</p>
+<h3>Especialistas en belleza integral</h3>
+<p>Cabello, uñas, pestañas y maquillaje se trabajan con una visión completa para resaltar tu estilo con acabados limpios y elegantes.</p>
+</div>
+</article>
+<div class="team-grid">
+<article class="team-card">
+<img alt="Especialista aplicando pestañas en Rachelle" decoding="async" height="1600" loading="lazy" src="images/equipo-rachelle-pestanas.webp" width="1066"/>
+<div class="team-card-content">
+<p class="team-label">Pestañas</p>
+<h3>Aplicación cuidadosa</h3>
+<p>Técnica precisa para lograr una mirada definida, femenina y natural.</p>
+</div>
+</article>
+<article class="team-card">
+<img alt="Especialista en uñas del salón Rachelle" decoding="async" height="841" loading="lazy" src="images/equipo-rachelle-unas.webp" width="1264"/>
+<div class="team-card-content">
+<p class="team-label">Uñas</p>
+<h3>Diseño y detalle</h3>
+<p>Manicura, diseños y acabados pensados para complementar tu estilo.</p>
+</div>
+</article>
+<article class="team-card">
+<img alt="Servicio de pestañas pelo a pelo en Rachelle" decoding="async" height="1066" loading="lazy" src="images/servicio-pestanas-pelo-a-pelo-rachelle.webp" width="1600"/>
+<div class="team-card-content">
+<p class="team-label">Atención</p>
+<h3>Servicio personalizado</h3>
+<p>Acompañamiento desde la orientación inicial hasta el acabado final.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="services section-animate" id="servicios">
+<div class="section-heading centered">
+<p class="eyebrow">Servicios de belleza en Misantla</p>
+<h2>Cabello, uñas, pestañas y cejas</h2>
+<p>Conoce cada servicio de Estética Rachelle y consulta disponibilidad antes de agendar.</p>
+</div>
+<div class="services-grid">
+<article class="service-card">
+<img alt="Corte de cabello para mujer en Estética Rachelle Misantla" decoding="async" height="960" loading="lazy" src="images/servicio-cortes-rachelle.webp" width="960"/>
+<div class="service-content"><p class="service-category">Cabello y peinados</p><h3>Cortes, peinados y cuidado del cabello</h3>
+<p>En Estética Rachelle ofrecemos servicios de cabello y peinados en Misantla, Veracruz. Consulta cortes, peinados, lavado, secado, planchado y tratamientos capilares.</p>
+<a class="service-link" href="servicios-de-cabello/">Ver servicios de cabello</a></div>
+</article>
+<article class="service-card">
+<img alt="Trabajo de coloración de cabello en Misantla" decoding="async" height="1600" loading="lazy" src="images/correccion-color-nuevo-resultado-final.webp" width="1200"/>
+<div class="service-content"><p class="service-category">Tintes y coloración</p><h3>Renueva el color de tu cabello</h3>
+<p>Renueva tu imagen con nuestros servicios de tintes y coloración de cabello en Misantla. Consulta las opciones disponibles de acuerdo con tu estilo y tipo de cabello.</p>
+<a class="service-link" href="tintes-y-coloracion/">Ver tintes y coloración</a></div>
+</article>
+<article class="service-card">
+<img alt="Tratamiento para el cabello realizado en Misantla" decoding="async" height="960" loading="lazy" src="images/galeria-cabello-07.webp" width="960"/>
+<div class="service-content"><p class="service-category">Tratamientos capilares</p><h3>Tratamientos para el cabello</h3>
+<p>Consulta opciones de tratamientos para el cabello en Misantla, además de lavado, secado y planchado para complementar tu servicio.</p>
+<a class="service-link" href="servicios-de-cabello/">Consultar tratamientos capilares</a></div>
+</article>
+<article class="service-card">
+<img alt="Manicure y pedicure realizado en Estética Rachelle en Misantla" decoding="async" height="1600" loading="lazy" src="images/servicio-manicura-rachelle.webp" width="1200"/>
+<div class="service-content"><p class="service-category">Manicure y pedicure</p><h3>Cuidado de manos y pies</h3>
+<p>Disfruta de servicios de manicure y pedicure en Misantla. Consulta los diseños, acabados y opciones disponibles en Estética Rachelle.</p>
+<a class="service-link" href="manicure-y-pedicure/">Ver manicure y pedicure</a></div>
+</article>
+<article class="service-card">
+<img alt="Diseño de uñas en Estética Rachelle" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-17.webp" width="1200"/>
+<div class="service-content"><p class="service-category">Uñas</p><h3>Aplicación y diseño de uñas</h3>
+<p>Conoce nuestros servicios de aplicación y diseño de uñas en Misantla, Veracruz. Pregunta por uñas acrílicas, semipermanentes y diseños disponibles.</p>
+<a class="service-link" href="unas-en-misantla/">Ver diseños de uñas</a></div>
+</article>
+<article class="service-card">
+<img alt="Aplicación de extensiones de pestañas en Misantla" decoding="async" height="1066" loading="lazy" src="images/servicio-pestanas-pelo-a-pelo-rachelle.webp" width="1600"/>
+<div class="service-content"><p class="service-category">Pestañas</p><h3>Pestañas y extensiones</h3>
+<p>En Estética Rachelle ofrecemos servicios de pestañas en Misantla. Consulta las técnicas, estilos y disponibilidad para agendar tu cita.</p>
+<a class="service-link" href="pestanas-en-misantla/">Consultar servicios de pestañas</a></div>
+</article>
+<article class="service-card">
+<img alt="Diseño y arreglo de cejas en Estética Rachelle" decoding="async" height="1600" loading="lazy" src="images/equipo-rachelle-pestanas.webp" width="1066"/>
+<div class="service-content"><p class="service-category">Cejas</p><h3>Diseño y arreglo de cejas</h3>
+<p>Realizamos diseño y arreglo de cejas en Misantla para ayudarte a resaltar tus facciones y complementar tu estilo.</p>
+<a class="service-link" href="diseno-de-cejas/">Ver servicios de cejas</a></div>
+</article>
+</div>
+</section><section class="reasons section-animate" id="por-que-elegirnos">
+<div class="section-heading centered">
+<p class="eyebrow">Antes de elegir tu servicio</p>
+<h2>Razones para consultar Estética Rachelle</h2>
+<p>Encuentra distintas opciones de belleza en un mismo lugar, revisa trabajos reales en la galería y solicita orientación antes de reservar.</p>
+</div>
+<div class="feature-list reasons-grid">
+<article><span>01</span><p>Servicios para cabello, uñas, pestañas y cejas en Misantla.</p></article>
+<article><span>02</span><p>Galería con trabajos reales para conocer distintos resultados.</p></article>
+<article><span>03</span><p>Contacto directo por WhatsApp para consultar disponibilidad.</p></article>
+</div>
+</section>
+<section class="personalized section-animate" id="atencion">
+<div class="personalized-card">
+<p class="eyebrow">Atención personalizada</p>
+<h2>Cuéntanos qué servicio de belleza buscas en Misantla</h2>
+<p>Envía una foto de referencia por WhatsApp y consulta disponibilidad para cabello, uñas, pestañas o cejas. La orientación final dependerá del servicio que deseas realizar.</p>
+<a class="btn btn-gold" href="https://wa.me/522351035520?text=Hola%2C%20encontr%C3%A9%20Est%C3%A9tica%20Rachelle%20en%20Google.%20Me%20gustar%C3%ADa%20recibir%20orientaci%C3%B3n%20para%20un%20servicio%20y%20puedo%20enviar%20una%20foto%20de%20referencia." rel="noopener noreferrer" target="_blank">Consultar disponibilidad</a>
+<a class="btn btn-outline" href="productos.html">Ver productos para el cabello</a>
+</div>
+</section>
+<section class="before-after section-animate visible" id="correccion-color">
+<div class="section-heading centered">
+<p class="eyebrow">Antes y después</p>
+<h2>Tintes y corrección de color en Misantla</h2>
+<p>Mira resultados reales de coloración y corrección de color realizados por Estética Rachelle. Consulta tu caso por WhatsApp antes de agendar.</p>
+</div>
+<div class="before-after-grid">
+<article class="before-after-card featured-case">
+<div class="comparison-frame three-stages">
+<div class="comparison-photo">
+<span>Llegó así</span>
+<img alt="Clienta que llegó con un trabajo de color previo mal realizado" decoding="async" height="1600" loading="lazy" src="images/correccion-color-nuevo-llegada-mal-trabajo.webp" width="1200"/>
+</div>
+<div class="comparison-photo">
+<span>Prueba de mechón</span>
+<img alt="Prueba de mechón durante una corrección de color" decoding="async" height="1600" loading="lazy" src="images/correccion-color-nuevo-prueba-mechon.webp" width="1200"/>
+</div>
+<div class="comparison-photo">
+<span>Resultado</span>
+<img alt="Resultado final de corrección de color con reflejos más uniformes" decoding="async" height="1600" loading="lazy" src="images/correccion-color-nuevo-resultado-final.webp" width="1200"/>
+</div>
+</div>
+<h3>Corrección de color</h3>
+<p>La clienta llegó con un trabajo previo mal realizado y un tono desigual. Se realizó una prueba de mechón para valorar el proceso de forma segura y después se trabajó la corrección para lograr un resultado más uniforme, luminoso y elegante.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+<article class="before-after-card">
+<div class="comparison-frame">
+<div class="comparison-photo">
+<span>Antes</span>
+<img alt="Antes de corrección de color, tono desigual" decoding="async" height="1600" loading="lazy" src="images/correccion-color-antes.webp" width="1200"/>
+</div>
+<div class="comparison-photo">
+<span>Después</span>
+<img alt="Después de corrección de color, tono uniforme" decoding="async" height="1600" loading="lazy" src="images/correccion-color-despues.webp" width="900"/>
+</div>
+</div>
+<h3>Corrección de color</h3>
+<p>Proceso ideal para mejorar tonos desiguales, matizar reflejos no deseados y lograr un resultado más uniforme y brillante.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+<article class="before-after-card">
+<div class="comparison-frame">
+<div class="comparison-photo">
+<span>Antes</span>
+<img alt="Antes de servicio de color con cabello reseco y tono cobrizo" decoding="async" height="813" loading="lazy" src="images/correccion-color-02-antes.webp" width="630"/>
+</div>
+<div class="comparison-photo">
+<span>Después</span>
+<img alt="Después de corrección de color con ondas y tonos rubios" decoding="async" height="789" loading="lazy" src="images/correccion-color-02-despues.webp" width="615"/>
+</div>
+</div>
+<h3>Caso 2 · Iluminación y matiz</h3>
+<p>Transformación para suavizar tonos intensos, aportar luz al cabello y conseguir una apariencia más fresca y definida.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+<article class="before-after-card">
+<div class="comparison-frame">
+<div class="comparison-photo">
+<span>Antes</span>
+<img alt="Antes de corrección de color con cabello oscuro" decoding="async" height="799" loading="lazy" src="images/correccion-color-03-antes.webp" width="627"/>
+</div>
+<div class="comparison-photo">
+<span>Después</span>
+<img alt="Después de corrección de color con acabado liso y reflejos miel" decoding="async" height="823" loading="lazy" src="images/correccion-color-03-despues.webp" width="612"/>
+</div>
+</div>
+<h3>Caso 3 · Cambio de tono</h3>
+<p>Trabajo de iluminación para dar dimensión al cabello oscuro y crear un resultado elegante con acabado más pulido.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+<article class="before-after-card">
+<div class="comparison-frame">
+<div class="comparison-photo">
+<span>Antes</span>
+<img alt="Antes de corrección de color con puntas claras" decoding="async" height="838" loading="lazy" src="images/correccion-color-04-antes.webp" width="628"/>
+</div>
+<div class="comparison-photo">
+<span>Después</span>
+<img alt="Después de corrección de color con tono rubio uniforme" decoding="async" height="841" loading="lazy" src="images/correccion-color-04-despues.webp" width="612"/>
+</div>
+</div>
+<h3>Caso 4 · Uniformidad y brillo</h3>
+<p>Servicio orientado a equilibrar el tono, mejorar la textura visual y conseguir una caída más limpia y luminosa.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+<article class="before-after-card">
+<div class="comparison-frame">
+<div class="comparison-photo">
+<span>Antes</span>
+<img alt="Antes de corrección de color con crecimiento oscuro y decoloración" decoding="async" height="820" loading="lazy" src="images/correccion-color-05-antes.webp" width="625"/>
+</div>
+<div class="comparison-photo">
+<span>Después</span>
+<img alt="Después de corrección de color con reflejos ceniza y acabado liso" decoding="async" height="832" loading="lazy" src="images/correccion-color-05-despues.webp" width="625"/>
+</div>
+</div>
+<h3>Caso 5 · Matización de rubios</h3>
+<p>Ideal para neutralizar contrastes marcados, armonizar los reflejos y lograr un efecto más natural y sofisticado.</p>
+<a class="btn btn-outline" href="https://wa.me/522351035520?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20correcci%C3%B3n%20de%20color.%20Puedo%20enviar%20una%20foto%20de%20mi%20cabello." rel="noopener" target="_blank">Consultar por WhatsApp</a>
+</article>
+</div>
+</section>
+<section class="gallery section-animate visible" id="galeria">
+<div class="section-heading centered">
+<p class="eyebrow">Galería</p>
+<h2>Galería de trabajos de Estética Rachelle</h2><p>Explora trabajos de cabello, uñas y pestañas realizados en Estética Rachelle, Misantla, Veracruz.</p>
+</div>
+<div aria-label="Filtros de galería" class="gallery-filters">
+<button aria-pressed="true" class="filter-btn active" data-filter="todo" type="button">Todo</button>
+<button aria-pressed="false" class="filter-btn" data-filter="cabello" type="button">Cabello</button>
+<button aria-pressed="false" class="filter-btn" data-filter="unas" type="button">Uñas</button>
+<button aria-pressed="false" class="filter-btn" data-filter="pestanas" type="button">Pestañas</button>
+</div>
+<div aria-label="Carrusel de galería" class="gallery-carousel">
+<button aria-label="Ver fotos anteriores" class="gallery-carousel-btn" data-gallery-prev="" type="button">‹</button>
+<div class="gallery-grid" id="galleryCarousel" tabindex="0">
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 1 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Resultado de corrección de color" decoding="async" height="1600" loading="lazy" src="images/galeria-correccion-color-despues.webp" width="900"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 2 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Resultado final de corrección de color con ondas suaves" decoding="async" height="1600" loading="lazy" src="images/galeria-correccion-color-resultado-final.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 3 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Resultado final de corrección de color tomado frente al espejo" decoding="async" height="1600" loading="lazy" src="images/galeria-correccion-color-selfie-final.webp" width="900"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 4 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Cabello largo con ondas y mechas cálidas" decoding="async" height="1600" loading="lazy" src="images/galeria-cabello-01.webp" width="1019"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 5 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Balayage rubio beige con ondas suaves" decoding="async" height="1600" loading="lazy" src="images/galeria-cabello-02.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 6 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Cabello oscuro con ondas suaves" decoding="async" height="558" loading="lazy" src="images/galeria-cabello-03.webp" width="418"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 7 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Cabello negro lacio y brillante" decoding="async" height="1600" loading="lazy" src="images/galeria-cabello-04.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 8 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Balayage rubio claro con ondas" decoding="async" height="960" loading="lazy" src="images/galeria-cabello-05.webp" width="947"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 9 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Cabello con balayage cenizo y ondas" decoding="async" height="1600" loading="lazy" src="images/galeria-cabello-06.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 10 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Bob ondulado con mechas caramelo" decoding="async" height="960" loading="lazy" src="images/galeria-cabello-07.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 11 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Resultado final de corrección de color en tonos beige con ondas" decoding="async" height="1600" loading="lazy" src="images/galeria-correccion-color-nuevo-resultado.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de cabello 12 de Estética Rachelle" class="gallery-item" data-category="cabello" type="button">
+<img alt="Resultado final de corrección de color visto en espejo" decoding="async" height="1600" loading="lazy" src="images/galeria-correccion-color-nuevo-espejo.webp" width="900"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 1 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 1" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-01.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 2 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 2" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-02.webp" width="1600"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 3 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 3" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-03.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 4 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 4" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-04.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 5 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 5" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-05.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 6 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 6" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-06.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 7 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 7" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-07.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 8 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 8" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-08.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 9 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 9" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-09.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 10 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 10" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-10.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 11 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 11" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-11.webp" width="1600"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 12 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 12" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-12.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 13 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 13" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-13.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 14 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 14" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-14.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 15 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 15" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-15.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 16 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 16" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-16.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 17 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 17" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-17.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 18 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 18" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-18.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 19 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 19" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-19.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 20 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 20" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-20.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 21 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 21" decoding="async" height="1600" loading="lazy" src="images/galeria-unas-21.webp" width="1200"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 22 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 22" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-22.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 23 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 23" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-23.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 24 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 24" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-24.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 25 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 25" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-25.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 26 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 26" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-26.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir diseño de uñas 27 de Estética Rachelle" class="gallery-item" data-category="unas" type="button">
+<img alt="Diseño de uñas realizado en Estética Rachelle en Misantla, muestra 27" decoding="async" height="1280" loading="lazy" src="images/galeria-unas-27.webp" width="720"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 1 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 1" decoding="async" height="1280" loading="lazy" src="images/galeria-pestanas-01.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 2 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 2" decoding="async" height="1280" loading="lazy" src="images/galeria-pestanas-02.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 3 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 3" decoding="async" height="1280" loading="lazy" src="images/galeria-pestanas-03.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 4 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 4" decoding="async" height="960" loading="lazy" src="images/galeria-pestanas-04.webp" width="1280"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 5 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 5" decoding="async" height="1280" loading="lazy" src="images/galeria-pestanas-05.webp" width="960"/>
+</button>
+<button aria-haspopup="dialog" aria-label="Abrir trabajo de pestañas 6 de Estética Rachelle" class="gallery-item" data-category="pestanas" type="button">
+<img alt="Aplicación de pestañas realizada en Misantla, muestra 6" decoding="async" height="960" loading="lazy" src="images/galeria-pestanas-06.webp" width="640"/>
+</button>
+</div>
+<button aria-label="Ver fotos siguientes" class="gallery-carousel-btn" data-gallery-next="" type="button">›</button>
+</div>
+<p class="gallery-hint">Desliza para ver más trabajos.</p>
+</section><section class="location section-animate" id="ubicacion">
+<div class="section-text">
+<p class="eyebrow">Ubicación</p>
+<h2>Visita Estética Rachelle en Misantla, Veracruz</h2>
+<p>Consulta el mapa, los horarios y las opciones de contacto antes de visitar el salón. Agenda con anticipación para confirmar disponibilidad.</p>
+<div class="info-list">
+<p><strong>Ciudad:</strong> Misantla, Veracruz, México</p>
+<p><strong>Dirección exacta:</strong> Calle Hermanos Bojalil Gil número 113, Zona Centro, Misantla, Veracruz, México.</p>
+<p><strong>Colonia:</strong> Misantla Centro (Zona Centro)</p>
+<p><strong>Código postal:</strong> 93820</p>
+<p><strong>Referencias para llegar:</strong> Sobre la calle Hermanos Bojalil Gil, en la Zona Centro de Misantla, prácticamente enfrente del Sitio de Taxis Bojalil Gil y cerca de Servicios Funerarios Misantla. En el tramo cercano a las calles José María Pino Suárez y Miguel Hidalgo.</p>
+<p><strong>Horario:</strong> Lunes a domingo · 9:00 a.m. a 8:00 p.m.</p>
+<p><strong>Teléfono y WhatsApp:</strong> <a href="tel:+522351035520">+52 235 103 5520</a></p>
+</div>
+<div class="location-buttons">
+<a aria-label="Agendar una cita por WhatsApp con Estética Rachelle" class="btn btn-dark" href="https://wa.me/522351035520?text=Hola%2C%20encontr%C3%A9%20Est%C3%A9tica%20Rachelle%20en%20Google%20y%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita." rel="noopener noreferrer" target="_blank">Agendar cita por WhatsApp</a>
+<a aria-label="Abrir la ubicación de Estética Rachelle en Google Maps" class="btn btn-outline" href="https://maps.app.goo.gl/JCtQqW6S3QTgFV7H7" rel="noopener noreferrer" target="_blank">Ver ubicación en Misantla</a>
+<a aria-label="Llamar a Estética Rachelle" class="btn btn-outline" href="tel:+522351035520">Llamar a Estética Rachelle</a>
+</div>
+</div>
+<div class="map-box">
+<iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=19.9269236,-96.8555838&amp;z=18&amp;output=embed" title="Mapa de Estética Rachelle en Misantla, Veracruz">
+</iframe>
+</div>
+</section>
+<section class="faq section-animate" id="faq">
+<div class="section-heading centered">
+<p class="eyebrow">Dudas frecuentes</p>
+<h2>Preguntas frecuentes sobre Estética Rachelle</h2>
+<p>Consulta información básica sobre servicios, ubicación y citas.</p>
+</div>
+<div class="faq-list"><details><summary>¿Qué servicios ofrece Estética Rachelle?</summary><p>Estética Rachelle ofrece servicios de cabello, peinados, tintes, manicure, pedicure, uñas, pestañas y diseño de cejas en Misantla, Veracruz.</p></details><details><summary>¿Dónde se encuentra Estética Rachelle?</summary><p>Estética Rachelle se encuentra en Calle Hermanos Bojalil Gil número 113, Zona Centro, Misantla, Veracruz, código postal 93820. Consulta la sección de ubicación para ver el mapa y las indicaciones para llegar.</p></details><details><summary>¿Cómo puedo agendar una cita?</summary><p>Puedes solicitar una cita por WhatsApp o teléfono desde los botones de contacto de la página.</p></details><details><summary>¿Ofrecen servicios de manicure y pedicure?</summary><p>Sí. Puedes consultar la disponibilidad de los servicios de manicure y pedicure directamente con Estética Rachelle.</p></details><details><summary>¿Realizan aplicación y diseño de uñas?</summary><p>Sí. Estética Rachelle ofrece servicios de aplicación y diseño de uñas. Consulta los estilos y opciones disponibles.</p></details><details><summary>¿Ofrecen servicios de pestañas?</summary><p>Sí. Puedes solicitar información sobre los servicios de pestañas y extensiones, y agendar una cita.</p></details><details><summary>¿Realizan diseño de cejas?</summary><p>Sí. Estética Rachelle ofrece servicios de diseño y arreglo de cejas en Misantla.</p></details><details><summary>¿Es necesario reservar con anticipación?</summary><p>Se recomienda consultar disponibilidad y agendar con anticipación para asegurar el horario deseado.</p></details></div>
+</section>
+<section class="contact section-animate" id="contacto">
+<div class="contact-card">
+<p class="eyebrow">Contacto</p>
+<h2>Agenda tu cita en Estética Rachelle</h2>
+<p>Escríbenos por WhatsApp o llama para consultar disponibilidad de servicios de cabello, uñas, pestañas y cejas en Misantla.</p>
+<div class="contact-actions">
+<a aria-label="Enviar un mensaje por WhatsApp a Estética Rachelle" class="btn btn-gold" href="https://wa.me/522351035520?text=Hola%2C%20encontr%C3%A9%20Est%C3%A9tica%20Rachelle%20en%20Google%20y%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita." rel="noopener noreferrer" target="_blank">Agendar cita por WhatsApp</a>
+<a aria-label="Llamar a Estética Rachelle" class="btn btn-outline" href="tel:+522351035520">Llamar a Estética Rachelle</a>
+<a class="btn btn-outline" href="contacto/">Ver todas las opciones de contacto</a>
+</div>
+</div>
+</section>
+</main>
+<a aria-label="Agendar una cita por WhatsApp con Estética Rachelle" class="whatsapp-float" href="https://wa.me/522351035520?text=Hola%2C%20encontr%C3%A9%20Est%C3%A9tica%20Rachelle%20en%20Google%20y%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20para%20agendar%20una%20cita." rel="noopener noreferrer" target="_blank">
+<span>Agendar por WhatsApp</span>
+</a>
+<div aria-hidden="true" aria-label="Vista ampliada de trabajo de Estética Rachelle" aria-modal="true" class="lightbox" id="lightbox" role="dialog">
+<button aria-label="Cerrar imagen" class="lightbox-close" id="lightboxClose" type="button">×</button>
+<img alt="" decoding="async" height="1600" id="lightboxImage" src="" width="1200"/>
+</div>
+<footer class="footer">
+<div class="footer-inner">
+<p>© 2026 Estética Rachelle. Misantla, Veracruz.</p>
+<nav aria-label="Enlaces del pie de página" class="footer-links">
+<a href="servicios-de-cabello/">Cabello</a>
+<a href="tintes-y-coloracion/">Tintes</a>
+<a href="manicure-y-pedicure/">Manicure y pedicure</a>
+<a href="unas-en-misantla/">Uñas</a>
+<a href="pestanas-en-misantla/">Pestañas</a>
+<a href="diseno-de-cejas/">Cejas</a>
+<a href="#ubicacion">Ubicación</a>
+<a href="contacto/">Contacto</a>
+</nav>
+</div>
+</footer>
+<script defer="" src="script.js?v=20260803-seo"></script>
 </body>
 </html>

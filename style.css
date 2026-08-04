@@ -29,6 +29,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Mantiene visible el encabezado de ubicación al navegar desde el menú. */
+#ubicacion {
+  scroll-margin-top: 105px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--ivory);
@@ -1292,4 +1297,110 @@ h3 {
 
 .three-stages .comparison-photo span {
   background: rgba(10, 10, 10, 0.78);
+}
+
+
+/* SEO local, accesibilidad y páginas de servicio — 2026-08-03 */
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -80px;
+  z-index: 3000;
+  background: var(--white);
+  color: var(--black);
+  padding: 12px 18px;
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  font-weight: 800;
+  transition: top 0.2s ease;
+}
+.skip-link:focus { top: 16px; }
+
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--soft-gold);
+  outline-offset: 4px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.pending-data {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 22px;
+  border: 1px dashed rgba(201, 162, 74, 0.65);
+  border-radius: var(--radius-medium);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--charcoal);
+  text-align: center;
+}
+
+.breadcrumb {
+  width: min(100% - 32px, var(--max-width));
+  margin: 22px auto 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--gray);
+  font-size: 0.92rem;
+}
+.breadcrumb a { text-decoration: underline; text-underline-offset: 3px; }
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+.service-detail-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+  padding: 26px;
+  box-shadow: 0 12px 38px rgba(0,0,0,.06);
+}
+.service-detail-card p { color: var(--gray); }
+.related-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.related-links .service-link {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 12px 18px;
+  background: var(--white);
+}
+
+.footer-inner {
+  width: min(100% - 32px, var(--max-width));
+  margin: 0 auto;
+  display: grid;
+  gap: 18px;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 18px;
+}
+.footer-links a { color: rgba(255,255,255,.82); text-decoration: underline; text-underline-offset: 3px; }
+.contact-info { margin-top: 26px; }
+
+body.lightbox-open { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .section-animate { opacity: 1; transform: none; }
 }
